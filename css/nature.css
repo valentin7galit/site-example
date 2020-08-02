@@ -1,0 +1,282 @@
+.nature {
+	font-family: 'Oxygen', sans-serif;
+	padding: 20px 20px;
+	border-right: 1px solid #e5e5e5;
+	border-left: 1px solid #e5e5e5;
+	width: 80%;
+	margin: 0 auto;
+}
+
+.category-name {
+	margin: 0 auto;
+	text-align: center;
+}
+
+.category-name-alig {
+	text-align: left;
+	font-size: 18pt;
+	padding-top: 20px;
+	border-top: 1px solid #e5e5e5;
+	color: #222;
+}
+
+.category-nature {
+	margin: 0 auto;
+	text-align: center;
+	overflow: hidden;
+}
+
+.category-block {
+	float: left;
+}
+
+.category-one {
+	width: 344px;
+}
+
+.category-two {
+	width: 344px;
+}
+
+.category-three {
+	width: 344px;
+}
+
+.space-block {
+	width: 23.5px;
+	height: 10px;
+	background-color: transparent;
+}
+
+.img-nature {
+	width: 330px;
+	height: 200px;
+	border: 6px solid #fff;
+	margin-top: 1px;
+}
+
+.img-nature-tree {
+	margin-top: 0px;
+}
+
+.block-one-nature {
+	background-color: #f0f0f0;
+	position: relative;
+}
+
+.block-two-nature {
+	background-color: #f5f5f5;
+}
+
+.block-three-nature {
+	background-color: #fff;
+	border-top: 1px solid #f1f1f1;
+	border-left: 1px solid #f1f1f1;
+	border-right: 1px solid #f1f1f1;
+}
+
+.sub-img-nature {
+	width: 320px;
+	margin: 0 auto;
+	text-align: center;
+}
+
+.alig-name-nature {
+	font-size: 12pt;
+	text-align: left;
+	color: #666;
+	margin: 0;
+	padding: 5px 0;
+}
+
+.sub-alig-name-nature {
+	font-size: 9pt;
+	text-align: left;
+	color: #999;
+	margin: 0;
+	padding-bottom: 5px;
+}
+
+.triangle-down {
+	border-bottom: 15px solid transparent;
+    border-image-repeat: repeat;
+    border-image-slice: 29;
+    background-color: #fff;
+}
+
+.block-describe-nature {
+	width: 320px;
+	margin: 0 auto;
+	text-align: center;
+}
+
+.parg-describe-nature {
+	font-size: 10pt;
+	color: #666;
+	text-align: justify;
+}
+
+.button-img {
+	position: absolute;
+	width: 330px;
+	height: 200px;
+	margin-top: -275px;
+	margin-left: 7px;
+	background-color: transparent;
+}
+
+.button-plus {
+	position: absolute;
+	height: 80px;
+	width: 80px;
+	background-color: rgba(0,0,0,0.67);
+	border-radius: 50%;
+	top: 60px;
+	left: 125px;
+	opacity: 0;
+}
+
+.in-button-plus {
+	height: 60px;
+	width: 60px;
+	background-color: #f3f3f3;
+	border-radius: 50%;
+	margin-top: 10px;
+	margin-left: 10px;
+	cursor: pointer;
+}
+
+.fa-plus {
+	font-size: 40px;
+	margin-top: 10px;
+	color: #4b4b4b;
+}
+
+.button-download {
+	position: absolute;
+	height: 60px;
+	width: 60px;
+	background-color: rgba(0,0,0,0.67);
+	border-radius: 50%;
+	top: 70px;
+	left: 55px;
+	opacity: 0;
+}
+
+.in-button-download {
+	height: 40px;
+	width: 40px;
+	background-color: #f3f3f3;
+	border-radius: 50%;
+	margin-top: 10px;
+	margin-left: 10px;
+}
+
+.fa-download {
+	font-size: 20px;
+	margin-top: 10px;
+	color: #4b4b4b;
+}
+
+.button-ext-link {
+	position: absolute;
+	height: 60px;
+	width: 60px;
+	background-color: rgba(0,0,0,0.67);
+	border-radius: 50%;
+	top: 70px;
+	left: 215px;
+	opacity: 0;
+}
+
+.in-button-ext-link {
+	height: 40px;
+	width: 40px;
+	background-color: #f3f3f3;
+	border-radius: 50%;
+	margin-top: 10px;
+	margin-left: 10px;
+}
+
+.fa-external-link-alt {
+	font-size: 20px;
+	margin-top: 10px;
+	color: #4b4b4b;
+}
+
+.button-img:hover {
+	background-color: rgba(0,0,0,0.2);
+}
+
+.button-img:hover .button-download,
+.button-img:hover .button-plus,
+.button-img:hover .button-ext-link {
+	opacity: 1;
+	transition: 0.5s;
+}
+
+.exter-img {
+	display: none;
+	position: fixed;
+	width: 100%;
+    height: 100%;
+	overflow: none;
+	margin: 0 auto;
+    text-align: center;
+    left: 0;
+    top: 0;
+    background-color: rgba(0,0,0,0.9);
+}
+
+#expanded_img {
+	padding: 5px;
+	background-color: #f2f2f2;
+	border: 1px solid #d0d0d0;
+	width: 58%;
+	height: auto;
+	min-width: 350px;
+}
+.sup-img {
+	padding: 50px 0;
+}
+
+.sub-img {
+	padding: 50px 0;
+}
+
+.closebtn {
+	position: absolute;
+    background-color: #ffc552;
+    padding: 8px 12px;
+    top: 13%;
+    right: 22%;
+    color: white;
+    font-weight: bold;
+    transition: 0.5s;
+    border-radius: 3px;
+}
+
+.fa-times {
+	font-size: 20px;
+	color: #fff;
+}
+
+.closebtn:hover {
+	background-color: #666;
+	cursor: pointer;
+}
+
+@media screen and (max-width: 1280px) {
+	.category-block {
+		float: none;
+		display: inline-block;
+	}
+
+	.space-block {
+		display: none;
+	}
+
+	.category-name-alig {
+		text-align: center;
+	}
+}

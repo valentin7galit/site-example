@@ -1,0 +1,149 @@
+.in-footer {
+	width: 80%;
+	text-align: center;
+	margin: 0 auto;
+	font-family: 'Arial';
+	padding: 40px 20px;
+	border-right: 1px solid #e5e5e5;
+	border-left: 1px solid #e5e5e5;
+	border-bottom: 1px solid #e5e5e5;
+	margin-bottom: 20px;
+	background-color: #fff;
+	position: relative;
+}
+
+.in-footer::before, .in-footer::after {
+	z-index: -1;
+    position: absolute;
+    content: "";
+    bottom: 15px;
+    left: 10px;
+    width: 50%;
+    top: 80%;
+    max-width:300px;
+    background: #777;
+    box-shadow: 0 15px 10px #777;
+    transform: rotate(-3deg);
+}
+
+.in-footer::after {
+	transform: rotate(3deg);
+    right: 10px;
+    left: auto;
+}
+
+.footer-line {
+	border-top: 1px solid #e5e5e5;
+	padding-bottom: 5px;
+}
+
+.footer-container {
+	display: inline-block;
+	vertical-align: top;
+}
+
+.footer-container-one {
+	width: 268px;
+}
+
+.footer-container-two {
+	width: 268px;
+}
+
+.footer-container-three {
+	width: auto;
+}
+
+.footer-header {
+	font-weight: bold;
+	font-size: 12pt;
+	color: #ffad19;
+	text-align: left;
+	text-transform: uppercase;
+	padding-bottom: 5px;
+}
+
+.footer-align {
+	font-size: 12pt;
+	text-align: left;
+	border-bottom: 1px solid #e5e5e5;
+	width: 218px;
+	color: #666;
+	padding-bottom: 5px;
+}
+
+.footer-last-align {
+	border-color: #fff;
+}
+
+.footer-align-container {
+	padding-bottom: 69px;
+	border-bottom: 1px solid #e5e5e5;
+}
+
+.footer-align-one {
+	float: left;
+}
+
+.footer-img {
+	width: 30px;
+	padding-top: 5px;
+}
+
+.footer-align-one-text {
+	text-align: left;
+	width: 503px;
+}
+
+.in-align-text {
+	margin: 0;
+	padding: 5px 0px 0px 15px;
+	font-size: 11pt;
+	color: #aaa;
+}
+
+.in-align-text-header {
+	font-size: 12pt;
+	color: #666;
+}
+
+.footer-align-container-two {
+	padding-top: 10px;
+}
+
+.footer-align-container-three {
+	padding-top: 10px;
+	border-color: #fff;
+}
+
+.footer-line-last {
+	position: absolute;
+	border-bottom: double #e5e5e5;
+	width: 100%;
+	padding-bottom: 36px;
+	margin-left: -20px;
+	margin-bottom: 20px;
+}
+
+@media screen and (max-width: 1280px) {
+	.footer-container, .footer-header, .footer-align {
+		text-align: center;
+	}
+
+	.footer-align, .footer-align-one-text {
+		width: auto;
+	}
+
+	.footer-align-one {
+		float: none;
+		display: block;
+	}
+
+	.footer-align-one-text {
+		text-align: center;
+	}
+
+	.footer-align-container-one, .footer-align-container-two, .footer-align-container-three {
+		height: 50px;
+	}
+}
